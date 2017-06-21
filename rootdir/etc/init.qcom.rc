@@ -1139,13 +1139,9 @@ service hcidump /system/bin/sh /system/etc/hcidump.sh
 
 service charger /charger
     class charger
-    group system graphics 
+    group log
     seclabel u:r:healthd:s0
     writepid /dev/cpuset/system-background/tasks
-
-on charger
-    setprop persist.sys.usb.config charging
-    start hvdcp_opti
 
 service ssr_diag /system/bin/ssr_diag
     class late_start

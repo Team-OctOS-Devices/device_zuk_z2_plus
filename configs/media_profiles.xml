@@ -746,9 +746,9 @@
         maxHFRMode="0"  />
 
     <AudioEncoderCap name="aac" enabled="true"
-
+<<<<<<< HEAD=======
         minBitRate="8000" maxBitRate="192000"
-
+>>>>>>> c3a5221... media: Fix 720p slow mo
         minSampleRate="8000" maxSampleRate="48000"
         minChannels="1" maxChannels="6" />
 

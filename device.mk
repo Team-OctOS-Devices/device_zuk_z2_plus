@@ -128,11 +128,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Gello
 
-#charger
-PRODUCT_PACKAGES += \
-    libhealthd.msm8996
-
-
 
 # Camera
 PRODUCT_PACKAGES += \
